@@ -1,0 +1,51 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    min-height: 100%;
+}
+.container{
+    margin-top: 40px;
+}
+
+.fondo-blanco{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 80px;
+    text-decoration: none;
+    display: inline;
+}
+.logo-nav{
+    display: none;
+}
+.nav-item{
+    padding-left: 120px;
+}
+.item-href-nav{
+    color: deepskyblue;
+}
+
+.mediosDePago{
+    width: 716px;
+}
+.centrado{
+    padding-left: 280px;
+}
+footer{
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border: 2px;
+    border-color: teal;
+    text-align: center;
+}
+.img-icono{
+    width: 60px;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    align-content: center;
+    margin-left: 300px;
+}
