@@ -22,9 +22,8 @@ class adminController
 
     public function mostrarDestino()
     {
-        $destinos = $this->destinoModel->getAll();
-        $empresas = $this->empresaModel->getAll();
 
-        $this->adminView->showAdminView($destinos, $empresas);
+        $destinos = $this->destinoModel->getAll();
+        $this->adminView->showAdminView($destinos);
     }
 }

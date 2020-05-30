@@ -13,6 +13,5 @@ class adminView
     {
         $this->smarty->assign('destinos', $destinos);
         $this->smarty->display('templates/index.tpl');
-
     }
 }
